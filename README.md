@@ -92,11 +92,12 @@ flowchart TD
 
 ```text
 To_Do_List-main/
-├── to_do_list.html    # Markup, styles, and application logic
-├── icon.png           # To-do list heading icon
-├── checked.png        # Completed-task indicator
-├── unchecked.png      # Active-task indicator
-└── README.md           # Project documentation
+├── to_do_list.html        # Markup, styles, and application logic
+├── icon.png               # To-do list heading icon
+├── checked.png            # Completed-task indicator
+├── unchecked.png          # Active-task indicator
+├── To_do_list_demo.mp4    #  show visual demonstration
+└── README.md               # Project documentation
 ```
 
 ## Getting Started
@@ -154,7 +155,7 @@ Then open `http://localhost:8000/to_do_list.html`.
 
 ## Author
 
-**Ravi**
+**Ravi Kumar Sharma**
 
 Created as a frontend web-development project demonstrating DOM manipulation, event-driven JavaScript, and browser-based data persistence.
 
