@@ -138,15 +138,13 @@ Then open `http://localhost:8000/to_do_list.html`.
 
 ### 🏠 Main Application
 
-![To-Do List application interface](screenshots/todo-app.png)
+![To-Do List application interface](todo-app.png)
 
-> Create a `screenshots` folder in the project directory and save the application screenshot as `todo-app.png`.
 
 ## 🎬 Demo Video
 
 [▶️ Watch the To-Do List demonstration](to_do_list_demo.mp4)
 
-> The video file must be named exactly `to_do_list_demo.mp4` and stored in the same directory as this README.
 
 ## 🔮 Future Improvements
 
