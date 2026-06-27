@@ -102,6 +102,12 @@ To_Do_List-main/
 
 ## Getting Started
 
+### Preview
+
+checkout the to_do_list directory and view to to_do_list_demo.
+You will find a highquality demonstration video.
+
+ 
 ### Prerequisites
 
 A modern web browser such as Chrome, Edge, Firefox, or Safari is all that is required.
