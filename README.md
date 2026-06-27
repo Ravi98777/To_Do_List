@@ -1,14 +1,14 @@
-# To-Do List
+# ✅ To-Do List
 
 A simple, responsive task-management application built with HTML, CSS, and  JavaScript. It helps users add, complete, and remove daily tasks while preserving their list in the browser through local storage.
 
-## Overview
+## 📖 Overview
 
 The To-Do List provides a focused interface for organizing everyday work without requiring an account, database, or server. All application logic runs directly in the browser, making the project lightweight, fast to load, and easy to deploy as a static website.
 
 The application is well suited to beginners learning DOM manipulation, event handling, browser storage, and responsive interface design.
 
-## Features
+## ✨ Features
 
 - Add new tasks to the list
 - Mark tasks as completed or active
@@ -19,7 +19,7 @@ The application is well suited to beginners learning DOM manipulation, event han
 - Adapt to desktop and mobile screen sizes
 - Run entirely in the browser with no backend dependency
 
-## Tech Stack
+## 🧰 Tech Stack
 
 | Technology | Purpose |
 | --- | --- |
@@ -28,7 +28,7 @@ The application is well suited to beginners learning DOM manipulation, event han
 | JavaScript | Handles task creation, completion, deletion, and persistence |
 | Web Storage API | Stores the task list in the browser using `localStorage` |
 
-## Project Highlights
+## 🌟 Project Highlights
 
 - **Zero dependencies:** No frameworks, packages, or build tools are required.
 - **Persistent state:** Tasks remain available across browser sessions.
@@ -37,7 +37,7 @@ The application is well suited to beginners learning DOM manipulation, event han
 - **Static deployment:** The complete app can be hosted on any static-site platform.
 - **Beginner-friendly codebase:** The compact structure makes the data flow easy to study and extend.
 
-## System Architecture
+## 🏗️ System Architecture
 
 The project follows a client-side architecture. The HTML document contains the interface, CSS controls presentation, and JavaScript coordinates user actions with the browser's local storage.
 
@@ -51,7 +51,7 @@ flowchart LR
     DOM --> UI
 ```
 
-### Main Components
+### 🧩 Main Components
 
 | Component | Responsibility |
 | --- | --- |
@@ -63,7 +63,7 @@ flowchart LR
 | `saveData()` | Writes the current list markup to `localStorage` |
 | `showTask()` | Restores saved tasks when the application loads |
 
-## Application Workflow
+## 🔄 Application Workflow
 
 ```mermaid
 flowchart TD
@@ -88,31 +88,25 @@ flowchart TD
 5. Selecting the × control removes the corresponding task.
 6. Every change calls `saveData()` to update `localStorage`.
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 To_Do_List-main/
-├── to_do_list.html        # Markup, styles, and application logic
-├── icon.png               # To-do list heading icon
-├── checked.png            # Completed-task indicator
-├── unchecked.png          # Active-task indicator
-├── To_do_list_demo.mp4    #  show visual demonstration
-└── README.md               # Project documentation
+├── to_do_list.html    # Markup, styles, and application logic
+├── icon.png           # To-do list heading icon
+├── checked.png        # Completed-task indicator
+├── unchecked.png      # Active-task indicator
+├── to_do_list_demo.mp4 # Application demonstration video
+└── README.md           # Project documentation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Preview
-
-checkout the to_do_list directory and view to to_do_list_demo.
-You will find a highquality demonstration video.
-
- 
-### Prerequisites
+### ✅ Prerequisites
 
 A modern web browser such as Chrome, Edge, Firefox, or Safari is all that is required.
 
-### Installation
+### 📥 Installation
 
 1. Download or clone the project.
 2. Keep the PNG assets in the same directory as `to_do_list.html`.
@@ -120,7 +114,7 @@ A modern web browser such as Chrome, Edge, Firefox, or Safari is all that is req
 
 No dependency installation or build command is necessary.
 
-### Optional Local Server
+### 🖥️ Optional Local Server
 
 The project can also be served locally:
 
@@ -130,7 +124,7 @@ python -m http.server 8000
 
 Then open `http://localhost:8000/to_do_list.html`.
 
-## Usage
+## 🎯 Usage
 
 1. Type a task into the input field.
 2. Select **Add** to place it on the list.
@@ -140,7 +134,21 @@ Then open `http://localhost:8000/to_do_list.html`.
 
 > Task data is stored only in the current browser and origin. Clearing browser storage or using another device will not retain the list.
 
-## Future Improvements
+## 📸 Screenshots
+
+### 🏠 Main Application
+
+![To-Do List application interface](screenshots/todo-app.png)
+
+> Create a `screenshots` folder in the project directory and save the application screenshot as `todo-app.png`.
+
+## 🎬 Demo Video
+
+[▶️ Watch the To-Do List demonstration](to_do_list_demo.mp4)
+
+> The video file must be named exactly `to_do_list_demo.mp4` and stored in the same directory as this README.
+
+## 🔮 Future Improvements
 
 - Support adding tasks with the Enter key
 - Add task editing and confirmation before deletion
@@ -153,19 +161,18 @@ Then open `http://localhost:8000/to_do_list.html`.
 - Synchronize tasks across devices through a backend API
 - Include automated unit and user-interface tests
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - The project uses standard browser APIs provided by modern web browsers.
 - The checked, unchecked, and heading graphics are included as local project assets.
 - Thanks to the web-development community for the learning resources and patterns that make beginner-friendly projects like this possible.
 
-## Author
+## 👨‍💻 Author
 
 **Ravi Kumar Sharma**
 
 Created as a frontend web-development project demonstrating DOM manipulation, event-driven JavaScript, and browser-based data persistence.
 
-## License
+## 📄 License
 
 This project is intended for educational and personal use. Add a `LICENSE` file before publishing or redistributing the project under a specific open-source license.
-
